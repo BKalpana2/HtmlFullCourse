@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <style>
+        body {
+            background-color: #ffe5e2;
+            font-family: "Times New Roman", serif;
+        }
+
+        .container {
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 70px;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 28px;
+        }
+
+        .label {
+            width: 270px;
+            font-size: 32px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 560px;
+            height: 38px;
+            font-size: 18px;
+            padding: 3px 6px;
+        }
+
+        .name input {
+            width: 255px;
+        }
+
+        .name span {
+            font-size: 30px;
+            margin: 0 8px;
+        }
+
+        .dob input {
+            width: 70px;
+        }
+
+        .dob input:last-of-type {
+            width: 125px;
+        }
+
+        .dob span {
+            font-size: 30px;
+            margin: 0 8px;
+        }
+
+        .dob em {
+            font-size: 28px;
+            margin-left: 10px;
+        }
+
+        .mobile .code {
+            width: 55px;
+        }
+
+        .mobile .number {
+            width: 465px;
+        }
+
+        .gender label,
+        .department label {
+            font-size: 30px;
+            margin-right: 12px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: 25px;
+            height: 25px;
+            vertical-align: middle;
+        }
+
+        select {
+            width: 630px;
+            height: 45px;
+            font-size: 18px;
+        }
+
+        input[type="file"] {
+            font-size: 18px;
+        }
+
+        textarea {
+            width: 530px;
+            height: 105px;
+            font-size: 18px;
+            padding: 8px;
+            resize: none;
+        }
+
+        .address-row {
+            align-items: flex-start;
+        }
+
+        .address-label {
+            padding-top: 45px;
+        }
+
+        .button-row {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 5px 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Registration Form</h1>
+
+        <form>
+
+            <!-- Roll Number -->
+            <div class="form-row">
+                <div class="label">Roll no. :</div>
+                <input type="text">
+            </div>
+
+            <!-- Student Name -->
+            <div class="form-row">
+                <div class="label">Student name :</div>
+
+                <div class="name">
+                    <input type="text" placeholder="First Name">
+                    <span>-</span>
+                    <input type="text" placeholder="Last Name">
+                </div>
+            </div>
+
+            <!-- Father's Name -->
+            <div class="form-row">
+                <div class="label">Father's name :</div>
+                <input type="text">
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="form-row">
+                <div class="label">Date of birth :</div>
+
+                <div class="dob">
+                    <input type="text" placeholder="Day">
+                    <span>-</span>
+
+                    <input type="text" placeholder="Month">
+                    <span>-</span>
+
+                    <input type="text" placeholder="Year">
+
+                    <em>(DD-MM-YYYY)</em>
+                </div>
+            </div>
+
+            <!-- Mobile Number -->
+            <div class="form-row">
+                <div class="label">Mobile no. :</div>
+
+                <div class="mobile">
+                    <input type="text" class="code" value="+91">
+                    <span>-</span>
+                    <input type="text" class="number">
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-row">
+                <div class="label">Email id :</div>
+                <input type="email">
+            </div>
+
+            <!-- Password -->
+            <div class="form-row">
+                <div class="label">Password :</div>
+                <input type="password">
+            </div>
+
+            <!-- Gender -->
+            <div class="form-row">
+                <div class="label">Gender :</div>
+
+                <div class="gender">
+                    <label>
+                        <input type="radio" name="gender">
+                        Male
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gender">
+                        Female
+                    </label>
+                </div>
+            </div>
+
+            <!-- Department -->
+            <div class="form-row">
+                <div class="label">Department :</div>
+
+                <div class="department">
+
+                    <label>
+                        <input type="checkbox" name="department">
+                        CSE
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="department">
+                        IT
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="department">
+                        ECE
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="department">
+                        Civil
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="department">
+                        Mech
+                    </label>
+
+                </div>
+            </div>
+
+            <!-- Course -->
+            <div class="form-row">
+                <div class="label">Course :</div>
+
+                <select>
+                    <option>-------------------- Select Current Course's --------------------</option>
+                    <option>B.Tech</option>
+                    <option>M.Tech</option>
+                    <option>MCA</option>
+                    <option>BCA</option>
+                    <option>MBA</option>
+                </select>
+            </div>
+
+            <!-- Student Photo -->
+            <div class="form-row">
+                <div class="label">Student photo :</div>
+                <input type="file">
+            </div>
+
+            <!-- City -->
+            <div class="form-row">
+                <div class="label">City :</div>
+                <input type="text">
+            </div>
+
+            <!-- Address -->
+            <div class="form-row address-row">
+                <div class="label address-label">Address :</div>
+                <textarea></textarea>
+            </div>
+
+            <!-- Register Button -->
+            <div class="button-row">
+                <button type="submit">Register</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
