@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Travel Bucket List</title>
+</head>
+<body>
+
+    <header>
+        <h1>🌍 My Travel Bucket List</h1>
+        <p>Explore the world, collect memories, and live your dreams!</p>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="#destinations">Destinations</a> |
+        <a href="#completed">Completed Trips</a> |
+        <a href="#planner">Travel Planner</a>
+    </nav>
+
+    <hr>
+
+    <section id="destinations">
+        <h2>✈️ My Dream Destinations</h2>
+
+        <h3>1. Paris, France</h3>
+        <img src="https://placehold.co/300x180?text=Paris"
+             alt="Paris destination" width="300">
+        <p><strong>Why I want to visit:</strong> To see the Eiffel Tower.</p>
+        <p><strong>Best time to visit:</strong> April to June</p>
+        <p><strong>Estimated Budget:</strong> ₹1,00,000</p>
+        <p>Status: <mark>Not Visited Yet</mark></p>
+
+        <hr>
+
+        <h3>2. Manali, India</h3>
+        <img src="https://placehold.co/300x180?text=Manali"
+             alt="Manali destination" width="300">
+        <p><strong>Why I want to visit:</strong> To experience snow and mountains.</p>
+        <p><strong>Best time to visit:</strong> December to February for snow</p>
+        <p><strong>Estimated Budget:</strong> ₹15,000</p>
+        <p>Status: <mark>Not Visited Yet</mark></p>
+
+        <hr>
+
+        <h3>3. Bali, Indonesia</h3>
+        <img src="https://placehold.co/300x180?text=Bali"
+             alt="Bali destination" width="300">
+        <p><strong>Why I want to visit:</strong> To enjoy beaches and sunsets.</p>
+        <p><strong>Best time to visit:</strong> April to October</p>
+        <p><strong>Estimated Budget:</strong> ₹60,000</p>
+        <p>Status: <mark>Not Visited Yet</mark></p>
+
+    </section>
+
+    <hr>
+
+    <section id="completed">
+        <h2>🏆 My Completed Trips</h2>
+
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Destination</th>
+                <th>Year</th>
+                <th>Favorite Memory</th>
+            </tr>
+            <tr>
+                <td>Hyderabad</td>
+                <td>2025</td>
+                <td>Exploring the city</td>
+            </tr>
+            <tr>
+                <td>Vijayawada</td>
+                <td>2024</td>
+                <td>Enjoying the local food</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="planner">
+        <h2>📝 Plan Your Next Trip</h2>
+
+        <form>
+            <label for="traveler">Your Name:</label>
+            <input type="text" id="traveler" name="traveler" required>
+            <br><br>
+
+            <label for="destination">Choose Destination:</label>
+            <select id="destination" name="destination">
+                <option value="Paris">Paris</option>
+                <option value="Manali">Manali</option>
+                <option value="Bali">Bali</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+
+            <label for="people">Number of Travelers:</label>
+            <input type="number" id="people" name="people" min="1" max="20">
+            <br><br>
+
+            <label for="budget">Your Budget:</label>
+            <input type="number" id="budget" name="budget"
+                   placeholder="Enter budget in rupees">
+            <br><br>
+
+            <label for="activities">Favorite Activities:</label>
+            <br>
+            <input type="checkbox" name="activity" value="Adventure">
+            Adventure
+            <br>
+            <input type="checkbox" name="activity" value="Sightseeing">
+            Sightseeing
+            <br>
+            <input type="checkbox" name="activity" value="Shopping">
+            Shopping
+            <br>
+            <input type="checkbox" name="activity" value="Food">
+            Food Exploration
+            <br><br>
+
+            <label for="notes">Additional Notes:</label>
+            <br>
+            <textarea id="notes" name="notes" rows="4" cols="35"
+                      placeholder="Write your travel plans..."></textarea>
+            <br><br>
+
+            <input type="submit" value="Plan My Trip">
+            <input type="reset" value="Clear Form">
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <h3>✨ Travel Quote</h3>
+        <blockquote>
+            "The world is a book, and those who do not travel read only one page."
+        </blockquote>
+
+        <p>Created with ❤️ using HTML only.</p>
+        <p>&copy; 2026 My Travel Bucket List</p>
+    </footer>
+
+</body>
+</html>
+
