@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Capsule | Messages Across Time</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 align="center">⏳ THE TIME CAPSULE</h1>
+        <p align="center">
+            <em>Preserve today's memories for tomorrow's discoveries.</em>
+        </p>
+
+        <hr>
+
+        <nav align="center">
+            <a href="#home">Home</a> |
+            <a href="#past">From the Past</a> |
+            <a href="#future">Future Predictions</a> |
+            <a href="#create">Create a Capsule</a> |
+            <a href="#gallery">Memory Gallery</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Welcome to the Time Capsule</h2>
+
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1501139083538-0139583c060f?w=900"
+                    alt="An antique clock representing the passage of time"
+                    width="500">
+
+                <figcaption>
+                    Every moment becomes a memory.
+                </figcaption>
+            </figure>
+
+            <p>
+                Imagine sending a message to yourself five years from now.
+                What would you say? What dreams would you describe?
+                What memories would you want to preserve?
+            </p>
+
+            <p>
+                The Time Capsule is a place to record dreams, preserve
+                memories, and imagine what the future might bring.
+            </p>
+
+            <blockquote>
+                "The present is a gift, the past is a lesson,
+                and the future is a mystery."
+            </blockquote>
+        </section>
+
+        <hr>
+
+        <section id="past">
+            <h2>Messages from the Past</h2>
+
+            <article>
+                <h3>Message 1: A Letter from 1990</h3>
+
+                <p><strong>Written by:</strong> A Dreamer</p>
+                <p><strong>Year:</strong> 1990</p>
+
+                <blockquote>
+                    Dear Future Generation,
+
+                    I hope your world is filled with kindness,
+                    knowledge, and opportunities. I dream of a future
+                    where technology makes life easier and connects
+                    people across the world.
+                </blockquote>
+
+                <p>
+                    <strong>Reflection:</strong>
+                    How much has technology changed since 1990?
+                </p>
+            </article>
+
+            <article>
+                <h3>Message 2: A Student's Dream</h3>
+
+                <p><strong>Written by:</strong> An Aspiring Engineer</p>
+                <p><strong>Year:</strong> 2020</p>
+
+                <blockquote>
+                    Dear Future Me,
+
+                    I hope you have achieved your dreams.
+                    Remember the days when you worked hard,
+                    learned new skills, and believed in yourself.
+                    Never forget where your journey began.
+                </blockquote>
+            </article>
+
+            <details>
+                <summary>Discover why preserving memories matters</summary>
+
+                <p>
+                    Memories help us understand our growth, appreciate
+                    our experiences, and remember the people and moments
+                    that shaped our lives.
+                </p>
+            </details>
+        </section>
+
+        <hr>
+
+        <section id="future">
+            <h2>Predictions for the Future</h2>
+
+            <p>
+                These are imaginative predictions, not guaranteed
+                scientific forecasts.
+            </p>
+
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Prediction</th>
+                        <th>Possible Impact</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>2030</td>
+                        <td>Smarter personal assistants</td>
+                        <td>More automated daily tasks</td>
+                    </tr>
+
+                    <tr>
+                        <td>2040</td>
+                        <td>Advanced space tourism</td>
+                        <td>New travel experiences</td>
+                    </tr>
+
+                    <tr>
+                        <td>2050</td>
+                        <td>More sustainable cities</td>
+                        <td>Cleaner urban environments</td>
+                    </tr>
+
+                    <tr>
+                        <td>2100</td>
+                        <td>New forms of space exploration</td>
+                        <td>Greater understanding of the universe</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Questions for Future Generations</h3>
+
+            <ul>
+                <li>What technologies will change everyday life?</li>
+                <li>Will humans travel regularly to other planets?</li>
+                <li>How will education change?</li>
+                <li>What will cities look like in 2100?</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="create">
+            <h2>Create Your Own Time Capsule</h2>
+
+            <p>
+                Write a letter to your future self.
+                Imagine opening it five or ten years from today.
+            </p>
+
+            <form action="#" method="get">
+
+                <fieldset>
+                    <legend>Your Information</legend>
+
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name"
+                           placeholder="Enter your name" required>
+
+                    <br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email">
+
+                    <br><br>
+
+                    <label for="date">Capsule Creation Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Your Future</legend>
+
+                    <label for="opening-year">When should this capsule be opened?</label>
+
+                    <select id="opening-year" name="opening-year" required>
+                        <option value="">Choose a year</option>
+                        <option value="2030">2030</option>
+                        <option value="2035">2035</option>
+                        <option value="2040">2040</option>
+                        <option value="2050">2050</option>
+                        <option value="2100">2100</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="dream">What is your biggest dream?</label>
+                    <br>
+
+                    <textarea id="dream" name="dream"
+                              rows="4" cols="50"
+                              placeholder="Write about your dreams..."
+                              required></textarea>
+
+                    <br><br>
+
+                    <label for="memory">Your Favourite Memory:</label>
+                    <br>
+
+                    <textarea id="memory" name="memory"
+                              rows="4" cols="50"
+                              placeholder="Describe a memory you never want to forget..."
+                              required></textarea>
+
+                    <br><br>
+
+                    <label for="letter">Letter to Your Future Self:</label>
+                    <br>
+
+                    <textarea id="letter" name="letter"
+                              rows="8" cols="60"
+                              placeholder="Dear Future Me..."
+                              required></textarea>
+
+                    <br><br>
+
+                    <label for="mood">How do you feel today?</label>
+
+                    <select id="mood" name="mood">
+                        <option value="Happy">Happy</option>
+                        <option value="Excited">Excited</option>
+                        <option value="Hopeful">Hopeful</option>
+                        <option value="Thoughtful">Thoughtful</option>
+                        <option value="Motivated">Motivated</option>
+                    </select>
+
+                    <br><br>
+
+                    <input type="checkbox" id="promise" name="promise" required>
+
+                    <label for="promise">
+                        I promise to keep working towards my dreams.
+                    </label>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Create My Time Capsule</button>
+
+                <button type="reset">Start Again</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="gallery">
+            <h2>Memory Gallery</h2>
+
+            <p>Explore the moments worth remembering.</p>
+
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600"
+                    alt="Beautiful mountain landscape"
+                    width="300">
+
+                <figcaption>
+                    <strong>Memory 1:</strong> A journey into nature.
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=600"
+                    alt="Friends spending time together"
+                    width="300">
+
+                <figcaption>
+                    <strong>Memory 2:</strong> Moments with loved ones.
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600"
+                    alt="People enjoying a memorable event"
+                    width="300">
+
+                <figcaption>
+                    <strong>Memory 3:</strong> Celebrating life's special occasions.
+                </figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <section id="final-message">
+            <h2>A Message to Remember</h2>
+
+            <p>
+                Your future is not written yet.
+                Every decision, every lesson, and every effort
+                becomes part of your story.
+            </p>
+
+            <p>
+                <strong>
+                    Dream boldly. Work consistently. Remember your journey.
+                </strong>
+            </p>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer align="center">
+        <p><strong>THE TIME CAPSULE</strong></p>
+        <p>Preserving memories, one message at a time.</p>
+        <p>&copy; 2026 Time Capsule Project</p>
+    </footer>
+
+</body>
+</html>
+
