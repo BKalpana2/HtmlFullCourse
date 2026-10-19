@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Habit Tracker</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Daily Habit Tracker</h1>
+        <p>Build good habits, one day at a time!</p>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Today's Details</h2>
+
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="date">Today's Date:</label>
+                <input type="date" id="date" name="date">
+                <br><br>
+            </form>
+        </section>
+
+        <section>
+            <h2>My Daily Habits</h2>
+
+            <form>
+                <input type="checkbox" id="water" name="habit">
+                <label for="water">Drink 8 Glasses of Water</label>
+                <br><br>
+
+                <input type="checkbox" id="reading" name="habit">
+                <label for="reading">Read for 30 Minutes</label>
+                <br><br>
+
+                <input type="checkbox" id="exercise" name="habit">
+                <label for="exercise">Exercise for 20 Minutes</label>
+                <br><br>
+
+                <input type="checkbox" id="coding" name="habit">
+                <label for="coding">Practice Coding</label>
+                <br><br>
+
+                <input type="checkbox" id="sleep" name="habit">
+                <label for="sleep">Sleep for 8 Hours</label>
+                <br><br>
+            </form>
+        </section>
+
+        <section>
+            <h2>Daily Progress</h2>
+
+            <label for="progress">How was your day?</label>
+            <br><br>
+
+            <select id="progress" name="progress">
+                <option value="">Select your progress</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Need Improvement</option>
+            </select>
+            <br><br>
+
+            <label for="notes">Daily Notes:</label>
+            <br><br>
+
+            <textarea id="notes" name="notes" rows="5" cols="35"
+                placeholder="Write about your day..."></textarea>
+            <br><br>
+
+            <button type="button" onclick="window.print()">Print My Tracker</button>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Consistency is the key to success!</p>
+        <p>&copy; 2026 My Daily Habit Tracker</p>
+    </footer>
+
+</body>
+</html>
+
