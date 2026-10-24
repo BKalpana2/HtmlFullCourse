@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Movie Watchlist</title>
+</head>
+<body>
+
+    <h1>🎬 My Movie Watchlist</h1>
+    <p>Keep track of the movies you want to watch!</p>
+
+    <hr>
+
+    <h2>My Favourite Movies</h2>
+
+    <table border="1">
+        <tr>
+            <th>Movie Name</th>
+            <th>Language</th>
+            <th>Genre</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>RRR</td>
+            <td>Telugu</td>
+            <td>Action</td>
+            <td>Watched</td>
+        </tr>
+        <tr>
+            <td>3 Idiots</td>
+            <td>Hindi</td>
+            <td>Comedy</td>
+            <td>Watched</td>
+        </tr>
+        <tr>
+            <td>Inception</td>
+            <td>English</td>
+            <td>Sci-Fi</td>
+            <td>To Watch</td>
+        </tr>
+    </table>
+
+    <h2>Add a Movie</h2>
+
+    <form>
+        <label>Movie Name:</label>
+        <input type="text" name="movie">
+        <br><br>
+
+        <label>Language:</label>
+        <input type="text" name="language">
+        <br><br>
+
+        <label>Genre:</label>
+        <select name="genre">
+            <option>Action</option>
+            <option>Comedy</option>
+            <option>Romance</option>
+            <option>Thriller</option>
+            <option>Sci-Fi</option>
+        </select>
+        <br><br>
+
+        <label>Status:</label>
+        <input type="radio" name="status" value="Watched"> Watched
+        <input type="radio" name="status" value="To Watch"> To Watch
+        <br><br>
+
+        <input type="submit" value="Add Movie">
+        <input type="reset" value="Clear">
+    </form>
+
+    <hr>
+
+    <h3>Enjoy Your Movie Time! 🍿</h3>
+
+</body>
+</html>
