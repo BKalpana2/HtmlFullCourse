@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Review Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>🎬 Movie Review Corner</h1>
+        <p>Discover movies and share your opinions!</p>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="#latest">Latest Movies</a> |
+        <a href="#reviews">Reviews</a> |
+        <a href="#feedback">Your Feedback</a>
+    </nav>
+
+    <hr>
+
+    <section id="latest">
+        <h2>Latest Movies</h2>
+
+        <article>
+            <h3>Movie 1: The Lost Kingdom</h3>
+            <p><strong>Genre:</strong> Adventure</p>
+            <p><strong>Rating:</strong> 4.5/5</p>
+            <p>A young explorer discovers a mysterious hidden kingdom.</p>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>Movie 2: The Silent Night</h3>
+            <p><strong>Genre:</strong> Thriller</p>
+            <p><strong>Rating:</strong> 4/5</p>
+            <p>A detective investigates a strange mystery in a quiet town.</p>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>Movie 3: Friends Forever</h3>
+            <p><strong>Genre:</strong> Comedy</p>
+            <p><strong>Rating:</strong> 4.8/5</p>
+            <p>Four friends discover the true meaning of friendship.</p>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="reviews">
+        <h2>Popular Review</h2>
+        <blockquote>
+            "A wonderful movie with an exciting story and unforgettable
+            characters!"
+        </blockquote>
+        <p><em>— A Movie Lover</em></p>
+    </section>
+
+    <hr>
+
+    <section id="feedback">
+        <h2>Submit Your Review</h2>
+
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="movie">Choose a Movie:</label>
+            <select id="movie" name="movie">
+                <option>The Lost Kingdom</option>
+                <option>The Silent Night</option>
+                <option>Friends Forever</option>
+            </select>
+            <br><br>
+
+            <label for="rating">Your Rating:</label>
+            <select id="rating" name="rating">
+                <option>5 - Excellent</option>
+                <option>4 - Very Good</option>
+                <option>3 - Good</option>
+                <option>2 - Average</option>
+                <option>1 - Poor</option>
+            </select>
+            <br><br>
+
+            <label for="review">Your Review:</label>
+            <br>
+            <textarea id="review" name="review" rows="5" cols="35"
+                      placeholder="Write your review here..."></textarea>
+            <br><br>
+
+            <button type="submit">Submit Review</button>
+            <button type="reset">Clear Form</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Movie Review Corner</p>
+        <p>Made with HTML only.</p>
+    </footer>
+
+</body>
+</html>
+
