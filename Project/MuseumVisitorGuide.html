@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Museum Visitor Guide</title>
+</head>
+<body>
+
+    <header>
+        <h1>National Museum Guide</h1>
+        <p>Explore history, art, and ancient discoveries!</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="#collections">Collections</a> |
+        <a href="#timings">Visiting Hours</a> |
+        <a href="#ticket">Book Tickets</a>
+    </nav>
+
+    <hr>
+
+    <section id="collections">
+        <h2>Our Collections</h2>
+
+        <h3>1. Ancient History</h3>
+        <p>Discover ancient coins, tools, and historical objects.</p>
+
+        <h3>2. Art Gallery</h3>
+        <p>Explore beautiful paintings and traditional artwork.</p>
+
+        <h3>3. Science Exhibition</h3>
+        <p>Learn about scientific discoveries and inventions.</p>
+
+        <h3>4. Dinosaur World</h3>
+        <p>Discover dinosaur fossils and prehistoric creatures.</p>
+    </section>
+
+    <hr>
+
+    <section id="timings">
+        <h2>Visiting Hours</h2>
+
+        <table border="1">
+            <tr>
+                <th>Day</th>
+                <th>Opening Time</th>
+                <th>Closing Time</th>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>9:00 AM</td>
+                <td>5:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>9:00 AM</td>
+                <td>5:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>9:00 AM</td>
+                <td>5:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>Closed</td>
+                <td>Closed</td>
+            </tr>
+
+            <tr>
+                <td>Friday - Sunday</td>
+                <td>10:00 AM</td>
+                <td>6:00 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="ticket">
+        <h2>Book Your Visit</h2>
+
+        <form>
+            <label for="name">Visitor Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="date">Visit Date:</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+
+            <label for="visitors">Number of Visitors:</label>
+            <input type="number" id="visitors" name="visitors" min="1">
+            <br><br>
+
+            <label for="category">Visitor Category:</label>
+            <select id="category" name="category">
+                <option>Student</option>
+                <option>Adult</option>
+                <option>Senior Citizen</option>
+            </select>
+            <br><br>
+
+            <label for="message">Special Requests:</label>
+            <br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea>
+            <br><br>
+
+            <button type="submit">Book Visit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <h3>Contact Information</h3>
+        <p>Email: info@museum.example</p>
+        <p>Phone: 9876543210</p>
+        <p>Thank you for visiting our museum guide!</p>
+        <p>&copy; 2026 National Museum Guide</p>
+    </footer>
+
+</body>
+</html>
